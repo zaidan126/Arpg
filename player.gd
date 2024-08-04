@@ -1,5 +1,5 @@
 extends CharacterBody2D
-@export var speed=25
+@export var speed=300
 @onready var animation=$AnimationPlayer
 func handleinput():
 	var movedirection=Input.get_vector("ui_left","ui_right","ui_up","ui_down")
